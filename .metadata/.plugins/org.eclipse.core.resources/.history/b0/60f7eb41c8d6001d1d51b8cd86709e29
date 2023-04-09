@@ -1,0 +1,5 @@
+package DioProjeto;
+
+public interface Comportamento {
+
+}

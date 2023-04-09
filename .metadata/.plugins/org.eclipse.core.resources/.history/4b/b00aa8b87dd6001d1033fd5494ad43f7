@@ -1,0 +1,6 @@
+package DioStrategy.gof.copy;
+
+public interface Comportamento {
+	void mover();
+
+}

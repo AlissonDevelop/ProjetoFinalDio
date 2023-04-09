@@ -1,0 +1,5 @@
+package DioFacade.gof;
+
+public class Facade {
+
+}

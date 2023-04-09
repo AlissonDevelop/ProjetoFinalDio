@@ -1,0 +1,91 @@
+package Dio.gof;
+
+import DioFacade.gof.Facade;
+import DioSingleton.gof.SingletonEager;
+import DioSingleton.gof.SingletonLazy;
+import DioSingleton.gof.SingletonLazyHolder;
+import DioStrategy.gof.Comportamento;
+import DioStrategy.gof.ComportamentoAgressivo;
+import DioStrategy.gof.ComportamentoDefensivo;
+import DioStrategy.gof.ComportamentoNormal;
+import DioStrategy.gof.Robo;
+
+public class Teste {
+	
+	public static void main(String[] args) {
+		/*
+		// Singleton
+		SingletonLazy lazy = SingletonLazy.getInstancia();
+		System.out.println(lazy);
+		lazy = SingletonLazy.getInstancia();
+		System.out.println(lazy);
+		
+		System.out.println(" ");
+		
+		SingletonEager eager = SingletonEager.getInstancia();
+		System.out.println(eager);
+		eager = SingletonEager.getInstancia();
+		System.out.println(eager);
+		
+		System.out.println(" ");
+		
+		SingletonLazyHolder lazyHolder = SingletonLazyHolder.getInstancia();
+		System.out.println(lazyHolder);
+		lazyHolder = SingletonLazyHolder.getInstancia();
+		System.out.println(lazyHolder);
+		
+		System.out.println("----------------------------------------------- ");
+		System.out.println(" ");
+		
+		
+		// Strategy
+		Comportamento defensivo = new ComportamentoDefensivo();
+		Comportamento normal = new ComportamentoNormal();
+		Comportamento agressivo = new ComportamentoAgressivo();
+		
+		Robo robo = new Robo();
+		robo.setComportamento(normal);
+		robo.mover();
+		robo.mover();
+		System.out.println(" ");
+		robo.setComportamento(defensivo);
+		robo.mover();
+		System.out.println(" ");
+		robo.setComportamento(agressivo);
+		robo.mover();
+		robo.mover();
+		robo.mover();
+		System.out.println(" ");
+		*/
+		
+		//Facade
+		Facade facade = new Facade();
+		facade.migrarCliente("Venilson", "08040690");
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

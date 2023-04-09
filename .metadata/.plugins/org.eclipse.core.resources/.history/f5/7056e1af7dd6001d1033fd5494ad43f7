@@ -1,0 +1,8 @@
+package DioFacade.gof.copy;
+
+public class Facade {
+	
+	public void migrarCliente(String nome, String cep) {
+		
+	}
+}

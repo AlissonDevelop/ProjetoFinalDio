@@ -1,0 +1,5 @@
+package DioStrategy.gof;
+
+public class ComportamentoNormal {
+
+}
